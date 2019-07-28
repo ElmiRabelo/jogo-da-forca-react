@@ -54,7 +54,7 @@ class Hangman extends Component {
 
   /** generateButtons: return array of letter buttons to render */
   generateButtons() {
-    return "abcdefghijklmnopqrstuvwxyz".split("").map(ltr => (
+    return "aãbcçdefghijklmnopqrstuvwxyz".split("").map(ltr => (
       <button
         className="Hangman-btn"
         key={ltr}
